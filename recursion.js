@@ -173,4 +173,4 @@ const recursiveFilter = (array, callback) => {
 
 print(recursiveFilter([1,2,3,4], function(val) {
 	return val > 2
-}));
+})); 
