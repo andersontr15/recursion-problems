@@ -167,10 +167,10 @@ const recursiveMap = (array, callback) => {
 // 	return val * 2
 // }));
 
-const recursiveFilter = (array, callback) => {
-	return array.length === 1 ? callback(array) : [callback(array[0]) === true ? array[0] : null].concat(recursiveFilter(array.slice(1), callback))
-}
+// const recursiveFilter = (array, callback) => {
+// 	return array.length === 1 ? callback(array) : [callback(array[0]) === true ? array[0] : null].concat(recursiveFilter(array.slice(1), callback))
+// }
 
-print(recursiveFilter([1,2,3,4], function(val) {
-	return val > 2
-}));  
+// print(recursiveFilter([1,2,3,4], function(val) {
+// 	return val > 2
+// }));  
